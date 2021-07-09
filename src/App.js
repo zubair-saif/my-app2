@@ -7,6 +7,7 @@ import FunctionClick from "./components/FunctionClick";
 import ParentsComponents from "./components/ParentsComponents";
 import UserGreeting from "./components/UserGreeting";
 import NameListing from "./components/NameListing";
+import StyleSheet from "./components/StyleSheet";
 
 class App extends Component {
  
@@ -19,7 +20,8 @@ class App extends Component {
       {/* <FunctionClick/> */}
       {/* <ParentsComponents/> */}
       {/* <UserGreeting/> */}
-      <NameListing/>
+      {/* <NameListing/> */}
+      <StyleSheet primary={true}/>
       </div>;
   }
 }
