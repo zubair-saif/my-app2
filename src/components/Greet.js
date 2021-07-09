@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 
 const Greet = (props) => {
-    return (
-        <div>
-            <h1>{props.name}</h1>
-        </div>
-    )
+  const { name, heroName } = props;
+  return (
+    <div>
+      <h1>
+        Hello {name} AND {heroName}
+      </h1>
+    </div>
+  );
 };
 
 export default Greet;
