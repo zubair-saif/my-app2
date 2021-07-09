@@ -6,6 +6,7 @@ import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ParentsComponents from "./components/ParentsComponents";
 import UserGreeting from "./components/UserGreeting";
+import NameListing from "./components/NameListing";
 
 class App extends Component {
  
@@ -14,10 +15,11 @@ class App extends Component {
       {/* <h1>Welcome React</h1> */}
       {/* <Greet name="Welcome" heroName="hero"/> */}
       {/* <Message/> */}
-      {/* <Counter/>
-      <FunctionClick/>
-      <ParentsComponents/> */}
-      <UserGreeting/>
+      {/* <Counter/> */}
+      {/* <FunctionClick/> */}
+      {/* <ParentsComponents/> */}
+      {/* <UserGreeting/> */}
+      <NameListing/>
       </div>;
   }
 }
