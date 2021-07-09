@@ -4,6 +4,7 @@ import Greet from "./components/Greet";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
+import ParentsComponents from "./components/ParentsComponents";
 
 class App extends Component {
  
@@ -13,7 +14,8 @@ class App extends Component {
       {/* <Greet name="Welcome" heroName="hero"/> */}
       {/* <Message/> */}
       <Counter/>
-      <FunctionClick></FunctionClick>
+      <FunctionClick/>
+      <ParentsComponents/>
       </div>;
   }
 }
