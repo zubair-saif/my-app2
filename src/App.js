@@ -8,7 +8,7 @@ import ParentsComponents from "./components/ParentsComponents";
 import UserGreeting from "./components/UserGreeting";
 import NameListing from "./components/NameListing";
 import StyleSheet from "./components/StyleSheet";
-
+import Form from "./components/Form";
 class App extends Component {
  
   render() {
@@ -21,7 +21,8 @@ class App extends Component {
       {/* <ParentsComponents/> */}
       {/* <UserGreeting/> */}
       {/* <NameListing/> */}
-      <StyleSheet primary={true}/>
+      {/* <StyleSheet primary={true}/> */}
+      <Form/>
       </div>;
   }
 }
