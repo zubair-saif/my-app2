@@ -9,6 +9,7 @@ import UserGreeting from "./components/UserGreeting";
 import NameListing from "./components/NameListing";
 import StyleSheet from "./components/StyleSheet";
 import Form from "./components/Form";
+import ParentsComp from "./components/ParentsComp";
 class App extends Component {
  
   render() {
@@ -22,7 +23,8 @@ class App extends Component {
       {/* <UserGreeting/> */}
       {/* <NameListing/> */}
       {/* <StyleSheet primary={true}/> */}
-      <Form/>
+      {/* <Form/> */}
+      <ParentsComp/>
       </div>;
   }
 }
