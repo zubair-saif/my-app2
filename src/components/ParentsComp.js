@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import ReactPureCompo from "./ReactPureCompo";
 import RegularComp from "./RegularComp";
 
-export class ParentsComp extends Component {
+export class ParentsComp extends PureComponent {
   constructor(props) {
     super(props);
 
